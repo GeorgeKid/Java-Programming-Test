@@ -1,0 +1,52 @@
+Basically, I think it is not a code test case, so I will use text to describe the test cases.
+
+test case 1: for function 1
+input: create one LUN
+output: one LUN
+
+test case 2: for function 1
+input: create multiple LUN's
+output: multiple LUN's
+
+test case 3: for function 2
+input: expand LUN
+output: LUN has been expanded 
+
+test case 4: for function 3
+input: export a LUN to a host
+output: the host has received the LUN
+
+test case 5: for function 4
+input: un-export a LUN;
+output: the host has released the LUN
+
+test case 6: for function 5
+input: remove an un-exported LUN
+output: the un-exported LUN has been removed
+
+test case 7: for function 6
+input: retrieve a LUN
+output: the information of the LUN
+
+test case 8: for function 7
+input: 2 or more requests 
+output: all the requests are completed correctly
+
+test case 9: for function 8
+input:create 100 LUN's, export 50 of them
+output: the performance of the system is not impacted 
+
+test case 9: for function 8
+input:create 1000 LUN's, export 500 of them
+output: the performance of the system is not impacted 
+
+test case 9: for function 8
+input:create 10000 LUN's, export 5000 of them
+output: the performance of the system is not impacted 
+
+
+
+
+
+
+

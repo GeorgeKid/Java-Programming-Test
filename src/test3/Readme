@@ -1,0 +1,3 @@
+Personally, I think that the 10 write threads and 2 read threads randomly pick file to write and read
+cannot meet the requirement 4:all the 5 files should be written and verified exactly 2 times.
+so, if I am wrong, we can discuss about it 
